@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "web2mcp"
+version = "0.1.0"
+description = "Turn any dynamic website into a standardized Model Context Protocol (MCP) tool"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+keywords = ["mcp", "browser", "playwright", "ai", "agent"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    # MCP server framework
+    "fastmcp>=3.2.4",
+    # LLM-driven browser interaction
+    "browser-use>=0.11.13,<0.12",
+    # Type-safe agent framework
+    "pydantic-ai-slim[openai]>=1.83.0",
+    # Browser automation
+    "playwright>=1.58.0",
+    # Anti-bot stealth patches for Playwright
+    "playwright-stealth>=2.0.3",
+    # LLM provider for browser-use (langchain-based)
+    "langchain-openai>=0.2.0",
+    # Environment / settings management
+    "pydantic-settings>=2.0.0",
+    "python-dotenv>=1.2.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-mock>=3.14.0",
+]
+
+[project.scripts]
+web2mcp = "web2mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/web2mcp"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+src = ["src"]
