@@ -115,7 +115,7 @@ class WebBrowserAgent:
         # Register the stealth script injection handler.
         stealth_payload = self._stealth.script_payload
 
-        async def _inject_stealth(event: BrowserConnectedEvent) -> None:  # noqa: ARG001
+        async def _inject_stealth(_event: BrowserConnectedEvent) -> None:
             if stealth_payload:
                 try:
                     await session._cdp_add_init_script(stealth_payload)
