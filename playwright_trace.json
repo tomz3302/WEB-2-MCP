@@ -1,0 +1,70 @@
+[
+    {
+        "action": "search",
+        "params": {
+            "query": "Meta own neural computers research paper",
+            "engine": "duckduckgo"
+        },
+        "xpath": null,
+        "text_content": null,
+        "success": false
+    },
+    {
+        "action": "click",
+        "params": {
+            "index": 161
+        },
+        "xpath": null,
+        "text_content": null,
+        "success": false
+    },
+    {
+        "action": "navigate",
+        "params": {
+            "url": "https://arxiv.org/abs/2604.06425",
+            "new_tab": false
+        },
+        "xpath": null,
+        "text_content": null,
+        "success": false
+    },
+    {
+        "action": "click",
+        "params": {
+            "index": 636
+        },
+        "xpath": null,
+        "text_content": null,
+        "success": false
+    },
+    {
+        "action": "navigate",
+        "params": {
+            "url": "https://arxiv.org/abs/2604.06425",
+            "new_tab": false
+        },
+        "xpath": null,
+        "text_content": null,
+        "success": false
+    },
+    {
+        "action": "click",
+        "params": {
+            "index": 2129
+        },
+        "xpath": null,
+        "text_content": null,
+        "success": false
+    },
+    {
+        "action": "done",
+        "params": {
+            "text": "The research paper you are looking for is titled \"Neural Computers\", authored by researchers from Meta AI and KAUST. \n\nLink to the paper: https://arxiv.org/abs/2604.06425",
+            "success": true,
+            "files_to_display": []
+        },
+        "xpath": null,
+        "text_content": null,
+        "success": true
+    }
+]

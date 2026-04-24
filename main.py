@@ -1,5 +1,6 @@
 
 import asyncio
+import json
 import os
 from dotenv import load_dotenv
 
@@ -9,6 +10,8 @@ from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.google import GoogleModel
 from browser_use import Agent as BrowserAgent, ChatGoogle
 from dataclasses import dataclass
+from browser_use_replay import extract_steps,replay_steps
+from playwright.async_api import async_playwright
 
 # 1. Define your dependencies (The "Kitchen Equipment")
 @dataclass
@@ -34,7 +37,7 @@ research_agent = Agent(
 
 # 4. Wrap your browser-use code in a Tool
 @research_agent.tool
-async def search_meta_research(ctx: RunContext[BrowserDeps], query: str) -> str:
+async def search_meta_research(ctx: RunContext[BrowserDeps], query: str) -> str | None:
     """Uses a real browser to find specific research papers."""
     browser_agent = BrowserAgent(
         task=f"Find the paper: {query}",
@@ -60,9 +63,14 @@ async def run_research():
 load_dotenv()
 
 async def main():
+    with open("agentHistoryList_example.json", "r", encoding="utf-8") as f:
+        history_data = json.load(f)
+    steps = extract_steps(history_data)
 
-    
-   await run_research()
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch(headless=False)
+        page = await browser.new_page()
+        results = await replay_steps(steps, page)
 
 
 

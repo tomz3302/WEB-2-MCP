@@ -1,0 +1,292 @@
+[
+    {
+        "model_output": null,
+        "result": [
+            {
+                "is_done": false,
+                "error": "500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+                "include_extracted_content_only_once": false,
+                "include_in_memory": false
+            }
+        ],
+        "state": {
+            "tabs": [
+                {
+                    "url": "about:blank",
+                    "title": "",
+                    "target_id": "9F74",
+                    "parent_target_id": null
+                }
+            ],
+            "screenshot_path": null,
+            "interacted_element": [
+                null
+            ],
+            "url": "about:blank",
+            "title": "Empty Tab"
+        },
+        "metadata": {
+            "step_start_time": 1776705589.207977,
+            "step_end_time": 1776705603.5003955,
+            "step_number": 1,
+            "step_interval": null
+        },
+        "state_message": "<agent_history>\nAgent initialized\n</agent_history>\n\n<agent_state>\n<user_request>\nFind the paper: Meta own neural computers research paper\n</user_request>\n<file_system>\n\n</file_system>\n<todo_contents>\n[empty todo.md, fill it when applicable]\n</todo_contents>\n<step_info>Step1 maximum:500\nToday:2026-04-20</step_info>\n</agent_state>\n<browser_state>\n<page_stats>Page appears empty (SPA not loaded?) - 0 links, 0 interactive, 0 iframes, 0 total elements</page_stats>\n\nAvailable tabs:\nTab 9F74: about:blank - \n\n<page_info>0.0 pages above, 0.0 pages below</page_info>\n\nInteractive elements:\n[Start of page]\nEmpty DOM tree (you might have to wait for the page to load)\n[End of page]\n</browser_state>\n",
+        "step_number": 1
+    },
+    {
+        "model_output": null,
+        "result": [
+            {
+                "is_done": false,
+                "error": "500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+                "include_extracted_content_only_once": false,
+                "include_in_memory": false
+            }
+        ],
+        "state": {
+            "tabs": [
+                {
+                    "url": "about:blank",
+                    "title": "",
+                    "target_id": "9F74",
+                    "parent_target_id": null
+                }
+            ],
+            "screenshot_path": null,
+            "interacted_element": [
+                null
+            ],
+            "url": "about:blank",
+            "title": "Empty Tab"
+        },
+        "metadata": {
+            "step_start_time": 1776705603.5003955,
+            "step_end_time": 1776705610.2348707,
+            "step_number": 2,
+            "step_interval": 14.292418479919434
+        },
+        "state_message": "<agent_history>\nAgent initialized\n<step>\nAgent failed to output in the right format.\n</agent_history>\n\n<agent_state>\n<user_request>\nFind the paper: Meta own neural computers research paper\n</user_request>\n<file_system>\n\n</file_system>\n<todo_contents>\n[empty todo.md, fill it when applicable]\n</todo_contents>\n<step_info>Step2 maximum:500\nToday:2026-04-20</step_info>\n</agent_state>\n<browser_state>\n<page_stats>Page appears empty (SPA not loaded?) - 0 links, 0 interactive, 0 iframes, 0 total elements</page_stats>\n\nAvailable tabs:\nTab 9F74: about:blank - \n\n<page_info>0.0 pages above, 0.0 pages below</page_info>\n\nInteractive elements:\n[Start of page]\nEmpty DOM tree (you might have to wait for the page to load)\n[End of page]\n</browser_state>\n",
+        "step_number": 2
+    },
+    {
+        "model_output": {
+            "evaluation_previous_goal": "No previous goal. Initializing task.",
+            "memory": "The user wants to find a research paper about Meta's neural computers. I am starting a search.",
+            "next_goal": "Search for 'Meta own neural computers research paper' using DuckDuckGo.",
+            "action": [
+                {
+                    "search": {
+                        "query": "Meta own neural computers research paper",
+                        "engine": "duckduckgo"
+                    }
+                }
+            ],
+            "thinking": "The user is asking to find a research paper titled 'Meta own neural computers'. I need to search for this paper on the web to find its title, authors, and potentially a link to the full text. Since the browser is currently on an empty page (about:blank), I will start by using a search engine.",
+            "current_plan_item": 0,
+            "plan_update": [
+                "Search for 'Meta own neural computers research paper'",
+                "Identify the correct paper from search results",
+                "Extract and provide the paper details (title, authors, link)"
+            ]
+        },
+        "result": [
+            {
+                "is_done": false,
+                "long_term_memory": "Searched Duckduckgo for 'Meta own neural computers research paper'",
+                "extracted_content": "Searched Duckduckgo for 'Meta own neural computers research paper'",
+                "include_extracted_content_only_once": false,
+                "include_in_memory": false
+            }
+        ],
+        "state": {
+            "tabs": [
+                {
+                    "url": "about:blank",
+                    "title": "",
+                    "target_id": "9F74",
+                    "parent_target_id": null
+                }
+            ],
+            "screenshot_path": null,
+            "interacted_element": [
+                null
+            ],
+            "url": "about:blank",
+            "title": "Empty Tab"
+        },
+        "metadata": {
+            "step_start_time": 1776705610.2348707,
+            "step_end_time": 1776705627.4257605,
+            "step_number": 3,
+            "step_interval": 6.734475135803223
+        },
+        "state_message": "<agent_history>\nAgent initialized\n<step>\nAgent failed to output in the right format.\n<step>\nAgent failed to output in the right format.\n</agent_history>\n\n<agent_state>\n<user_request>\nFind the paper: Meta own neural computers research paper\n</user_request>\n<file_system>\n\n</file_system>\n<todo_contents>\n[empty todo.md, fill it when applicable]\n</todo_contents>\n<step_info>Step3 maximum:500\nToday:2026-04-20</step_info>\n</agent_state>\n<browser_state>\n<page_stats>Page appears empty (SPA not loaded?) - 0 links, 0 interactive, 0 iframes, 0 total elements</page_stats>\n\nAvailable tabs:\nTab 9F74: about:blank - \n\n<page_info>0.0 pages above, 0.0 pages below</page_info>\n\nInteractive elements:\n[Start of page]\nEmpty DOM tree (you might have to wait for the page to load)\n[End of page]\n</browser_state>\n",
+        "step_number": 3
+    },
+    {
+        "model_output": {
+            "evaluation_previous_goal": "Successfully searched for 'Meta own neural computers research paper'. Verdict: Success",
+            "memory": "Found a highly relevant paper on arXiv: '[2604.06425] Neural Computers'. It's a collaboration between Meta AI and KAUST.",
+            "next_goal": "Click on the arXiv link to extract the paper details.",
+            "action": [
+                {
+                    "click": {
+                        "index": 158
+                    }
+                }
+            ],
+            "thinking": "The search results show a very promising paper titled '[2604.06425] Neural Computers - arXiv.org'. The snippet mentions 'We propose a new frontier: Neural Computers (NCs)...' and other results mention 'Meta AI and KAUST Researchers Propose Neural Computers'. This is exactly what the user is looking for. I will now click on the arXiv link to get the full details (title, authors, and the link).",
+            "current_plan_item": 1
+        },
+        "result": [
+            {
+                "is_done": false,
+                "extracted_content": "Clicked a \"[2604.06425] Neural Computers ...\"",
+                "include_extracted_content_only_once": false,
+                "metadata": {
+                    "click_x": 482.0,
+                    "click_y": 376.1625061035156
+                },
+                "include_in_memory": false
+            }
+        ],
+        "state": {
+            "tabs": [
+                {
+                    "url": "https://duckduckgo.com/?q=Meta+own+neural+computers+research+paper&ia=web",
+                    "title": "Meta own neural computers research paper at DuckDuckGo",
+                    "target_id": "9F74",
+                    "parent_target_id": null
+                }
+            ],
+            "screenshot_path": "C:\\Users\\omara\\AppData\\Local\\Temp\\browser_use_agent_069e6602-c1c4-7dd2-8000-9cbf1293bc2d_1776705580\\screenshots\\step_4.png",
+            "interacted_element": [
+                {
+                    "node_id": 881,
+                    "backend_node_id": 158,
+                    "frame_id": null,
+                    "node_type": 1,
+                    "node_value": "",
+                    "node_name": "A",
+                    "attributes": {
+                        "href": "https://arxiv.org/abs/2604.06425",
+                        "rel": "noopener",
+                        "target": "_self",
+                        "class": "eVNpHGjtxRBq_gLOfGDr LQNqh2U1kzYxREs65IJu",
+                        "data-testid": "result-title-a",
+                        "data-handled-by-react": "true"
+                    },
+                    "x_path": "html/body/div[2]/div[6]/div[4]/div/div[1]/div/div[2]/section[1]/ol/li[2]/article/div[3]/h2/a",
+                    "element_hash": 7054226496637555202,
+                    "stable_hash": 17702092380521870176,
+                    "bounds": {
+                        "x": 168.0000053798039,
+                        "y": 334.62501071557665,
+                        "width": 628.0000201102193,
+                        "height": 26.400000845397756
+                    },
+                    "ax_name": "[2604.06425] Neural Computers - arXiv.org"
+                }
+            ],
+            "url": "https://duckduckgo.com/?q=Meta+own+neural+computers+research+paper&ia=web",
+            "title": "Meta own neural computers research paper at DuckDuckGo"
+        },
+        "metadata": {
+            "step_start_time": 1776705627.4257605,
+            "step_end_time": 1776705694.2045782,
+            "step_number": 4,
+            "step_interval": 17.190889835357666
+        },
+        "state_message": "<agent_history>\nAgent initialized\n<step>\nAgent failed to output in the right format.\n<step>\nAgent failed to output in the right format.\n<step>\nNo previous goal. Initializing task.\nThe user wants to find a research paper about Meta's neural computers. I am starting a search.\nSearch for 'Meta own neural computers research paper' using DuckDuckGo.\nResult\nSearched Duckduckgo for 'Meta own neural computers research paper'\n</agent_history>\n\n<agent_state>\n<user_request>\nFind the paper: Meta own neural computers research paper\n</user_request>\n<file_system>\n\n</file_system>\n<todo_contents>\n[empty todo.md, fill it when applicable]\n</todo_contents>\n<plan>\n[>] 0: Search for 'Meta own neural computers research paper'\n[ ] 1: Identify the correct paper from search results\n[ ] 2: Extract and provide the paper details (title, authors, link)\n</plan>\n<step_info>Step4 maximum:500\nToday:2026-04-20</step_info>\n</agent_state>\n<browser_state>\n<page_stats>38 links, 247 interactive, 0 iframes, 1 shadow(open), 0 shadow(closed), 14 images, 586 total elements</page_stats>\nCurrent tab: 9F74\nAvailable tabs:\nTab 9F74: https://duckduckgo.com/?q=Meta+own+neural+computers+research+paper&ia=web - Meta own neural computers rese\n\n<page_info>0.0 pages above, 2.0 pages below \u2014 scroll down to reveal more content</page_info>\n\nInteractive elements:\n[Start of page]\n|scroll element|<html /> (0.0 pages above, 2.0 pages below)\n\t[409]<div />\n\t\t[411]<a id=header-logo-wrapper aria-label=DuckDuckGo home />\n\t\t[424]<div />\n\t\t\t[46]<div id=react-search-form />\n\t\t\t\t[21]<form id=search_form name=x />\n\t\t\t\t\t[427]<div />\n\t\t\t\t\t\t|SHADOW(open)|[22]<input id=search_form_input name=q role=combobox autocomplete=off placeholder=Search privately value=Meta own neural computers research paper expanded=false />\n\t\t\t\t\t\t[429]<div />\n\t\t\t\t\t\t\t[48]<button type=submit aria-label=search />\n\t[434]<div />\n\t\t[49]<div />\n\t\t\t[26]<img />\n\t\t\tUpgrade to our browser.\n\t\t\t[28]<img />\n\t\t\tTry the\n\t\t\tDuckDuckGo Browser.\n\t\t\tFast. Free. Private.\n\t\t\t[51]<a />\n\t\t\t\tDownload Browser\n\t\t\tFree\n\t\t\t[461]<div />\n\t\t\t[54]<button />\n\t\t[55]<button id=header-hamburger-menu-btn />\n\t\t\tOpen menu\n\t[56]<div id=react-duckbar />\n\t\t[57]<a />\n\t\t\tAll\n\t\t[58]<a />\n\t\t\tImages\n\t\t[59]<a />\n\t\t\tVideos\n\t\t[60]<a />\n\t\t\tNews\n\t\t[61]<a />\n\t\t\tMaps\n\t\t[17]<a />\n\t\t\tSearch Assist\n\t\t[498]<span />\n\t\t\t[62]<a />\n\t\t\t\tDuck.ai\n\t\t[505]<span />\n\t\t\t[63]<button />\n\t\t\t\t[508]<span />\n\t\t\t\t\tSearch Settings\n\t\t\t\t[512]<a />\n\t[66]<div />\n\t\t[67]<div />\n\t\t\t[532]<span />\n\t\t\t\t[533]<div />\n\t\t\t\t\t[534]<div />\n\t\t\t\t\t\t[535]<div />\n\t\t\t\t\t\t\t[536]<div />\n\t\t\t\t\t\t\t[538]<div />\n\t\t\t\t\t\t[539]<span />\n\t\t\t\t\t\t\tProtected\n\t\t\t[541]<svg /> <!-- SVG content collapsed -->\n\t\t[70]<div />\n\t\t\t[566]<span />\n\t\t\t\t[567]<div />\n\t\t\t\t\t[568]<div />\n\t\t\t\t\t\t[569]<a />\n\t\t\t\t\t\t\tAll regions\n\t\t\t[571]<svg /> <!-- SVG content collapsed -->\n\t\t[136]<div />\n\t\t\t[968]<span />\n\t\t\t\tSafe search: moderate\n\t\t\t[970]<svg /> <!-- SVG content collapsed -->\n\t\t[140]<div />\n\t\t\t[992]<span />\n\t\t\t\tAny time\n\t\t\t[994]<svg /> <!-- SVG content collapsed -->\n\t\t[147]<article id=r1-0 />\n\t\t\t[1035]<div />\n\t\t\t\t[148]<button expanded=false />\n\t\t\t[1061]<div />\n\t\t\t\t[1062]<div />\n\t\t\t\t\t[1065]<div />\n\t\t\t\t\t\t[1066]<p />\n\t\t\t\t\t\t\tarXiv.org\n\t\t\t\t\t\t[157]<a />\n\t\t\t\t\t\t\thttps://\n\t\t\t\t\t\t\tarxiv.org\n\t\t\t\t\t\t\tabs \u203a 2604.06425\n\t\t\t[1076]<div />\n\t\t\t\t[1077]<h2 level=2 />\n\t\t\t\t\t[158]<a />\n\t\t\t\t\t\t[2604.06425] Neural Computers - arXiv.org\n\t\t\t[1080]<div />\n\t\t\t\t[1081]<div />\n\t\t\t\t\t[1082]<div />\n\t\t\t\t\t\t[1083]<span />\n\t\t\t\t\t\t\t[1084]<span />\n\t\t\t\t\t\t\t\t7 Apr 2026\n\t\t\t\t\t\t\t[338]<span />\n\t\t\t\t\t\t\t\tWe propose a new frontier:\n\t\t\t\t\t\t\t\t[1088]<b />\n\t\t\t\t\t\t\t\t\tNeural\n\t\t\t\t\t\t\t\t[1091]<b />\n\t\t\t\t\t\t\t\t\tComputers\n\t\t\t\t\t\t\t\t(NCs) -- an emerging machine form that unifies computation, memory, and I/O in a learned runtime state. Unlike conventional\n\t\t\t\t\t\t\t\t[1094]<b />\n\t\t\t\t\t\t\t\t\tcomputers\n\t\t\t\t\t\t\t\t, which execute explicit programs, agents, which act over external execution environments, and world models, which learn environment dynamics, NCs aim to make the model itself the running\n\t\t\t\t\t\t\t\t[1097]<b />\n\t\t\t\t\t\t\t\t\tcomputer\n\t\t\t\t\t\t\t\t. Our long-term goal is ...\n\t\t[159]<article id=r1-1 />\n\t\t\t[1101]<div />\n\t\t\t\t[160]<button expanded=false />\n\t\t\t[1127]<div />\n\t\t\t\t[1128]<div />\n\t\t\t\t\t[1131]<div />\n\t\t\t\t\t\t[1132]<p />\n\t\t\t\t\t\t\tai.meta.com\n\t\t\t\t\t\t[169]<a />\n\t\t\t\t\t\t\thttps://\n\t\t\t\t\t\t\tai.meta.com\n\t\t\t\t\t\t\tresults \u203a ?page=1&content_types[0]=publication\n\t\t\t[1142]<div />\n\t\t\t\t[1143]<h2 level=2 />\n\t\t\t\t\t[170]<a />\n\t\t\t\t\t\tMeta AI Publications\n\t\t\t[1146]<div />\n\t\t\t\t[1147]<div />\n\t\t\t\t\t[1148]<div />\n\t\t\t\t\t\t[1149]<span />\n\t\t\t\t\t\t\t[1150]<span />\n\t\t\t\t\t\t\t\t4 days ago\n\t\t\t\t\t\t\t[1153]<span />\n\t\t\t\t\t\t\t\t[1154]<b />\n\t\t\t\t\t\t\t\t\tComputer\n\t\t\t\t\t\t\t\tVision TransText: Transparency Aware Image-to-Video Typography Animation Fei Zhang, Zijian Zhou, Bohao Tang, Sen He, Hang Li (BizAI), Zhe Wang, Soubhik Sanyal, Pengfei Liu, Viktar Atliha, Tao Xiang, Frost Xu, Semih Gunel\n\t\t[171]<article id=r1-2 />\n\t\t\t[1158]<div />\n\t\t\t\t[172]<button expanded=false />\n\t\t\t[1184]<div />\n\t\t\t\t[1185]<div />\n\t\t\t\t\t[1188]<div />\n\t\t\t\t\t\t[1189]<p />\n\t\t\t\t\t\t\tMarkTechPost\n\t\t\t\t\t\t[181]<a />\n\t\t\t\t\t\t\thttps://\n\t\t\t\t\t\t\twww.marktechpost.com\n\t\t\t\t\t\t\t[339]<span />\n\t\t\t\t\t\t\t\t2026 \u203a 04 \u203a 12 \u203a meta-ai-and-kaust-researchers-propose-neural-computers-that-fold-computation-memory-and-i-o-into-one-learned-model\n\t\t\t[1198]<div />\n\t\t\t\t[1199]<h2 level=2 />\n\t\t\t\t\t[182]<a />\n\t\t\t\t\t\tMeta AI and KAUST Researchers Propose Neural Computers That Fold ...\n\t\t\t[1202]<div />\n\t\t\t\t[1203]<div />\n\t\t\t\t\t[1204]<div />\n\t\t\t\t\t\t[1205]<span />\n\t\t\t\t\t\t\t[1206]<span />\n\t\t\t\t\t\t\t\t12 Apr 2026\n\t\t\t\t\t\t\t[1209]<span />\n\t\t\t\t\t\t\t\tResearchers from\n\t\t\t\t\t\t\t\t[1211]<b />\n\t\t\t\t\t\t\t\t\tMeta\n\t\t\t\t\t\t\t\tAI and the King Abdullah University of Science and Technology (KAUST) have introduced\n\t\t\t\t\t\t\t\t[1214]<b />\n\t\t\t\t\t\t\t\t\tNeural\n\t\t\t\t\t\t\t\t[1217]<b />\n\t\t\t\t\t\t\t\t\tComputers\n\t\t\t\t\t\t\t\t(NCs) \u2014 a proposed machine form in which a\n\t\t\t\t\t\t\t\t[1220]<b />\n\t\t\t\t\t\t\t\t\tneural\n\t\t\t\t\t\t\t\tnetwork itself acts as the running\n\t\t\t\t\t\t\t\t[1223]<b />\n\t\t\t\t\t\t\t\t\tcomputer\n\t\t\t\t\t\t\t\t, rather than as a layer sitting on top of one. The\n\t\t\t\t\t\t\t\t[1226]<b />\n\t\t\t\t\t\t\t\t\tresearch\n\t\t\t\t\t\t\t\tteam presents both a theoretical framework and two working video-based prototypes that demonstrate early runtime ...\n\t\t[183]<article id=r1-3 />\n\t\t\t[1230]<div />\n\t\t\t\t[184]<button expanded=false />\n\t\t\t[1256]<div />\n\t\t\t\t[1257]<div />\n\t\t\t\t\t[1260]<div />\n\t\t\t\t\t\t[1261]<p />\n\t\t\t\t\t\t\tPhemex\n\t\t\t\t\t\t[193]<a />\n\t\t\t\t\t\t\thttps://\n\t\t\t\t\t\t\tphemex.com\n\t\t\t\t\t\t\t[1268]<span />\n\t\t\t\t\t\t\t\tnews \u203a article \u203a meta-ai-and-kaust-amend-neural-computers-paper-adjust-core-assertions-74557\n\t\t\t[1271]<div />\n\t\t\t\t[1272]<h2 level=2 />\n\t\t\t\t\t[194]<a />\n\t\t\t\t\t\tMeta AI and KAUST Revise 'Neural Computers' Paper - Phemex\n\t\t\t[1275]<div />\n\t\t\t\t[1276]<div />\n\t\t\t\t\t[1277]<div />\n\t\t\t\t\t\t[1278]<span />\n\t\t\t\t\t\t\t[1279]<span />\n\t\t\t\t\t\t\t\tToday\n\t\t\t\t\t\t\t[1282]<span />\n\t\t\t\t\t\t\t\t[1283]<b />\n\t\t\t\t\t\t\t\t\tMeta\n\t\t\t\t\t\t\t\tAI and King Abdullah University of Science and Technology (KAUST) have revised their joint\n\t\t\t\t\t\t\t\t[1286]<b />\n\t\t\t\t\t\t\t\t\tpaper\n\t\t\t\t\t\t\t\ton \"\n\t\t\t\t\t\t\t\t[1289]<b />\n\t\t\t\t\t\t\t\t\tNeural\n\t\t\t\t\t\t\t\t[1292]<b />\n\t\t\t\t\t\t\t\t\tComputers\n\t\t\t\t\t\t\t\t,\" initially published on April 7. The\n\t\t\t\t\t\t\t\t[1295]<b />\n\t\t\t\t\t\t\t\t\tpaper\n\t\t\t\t\t\t\t\tintroduced the concept of a \"\n\t\t\t\t\t\t\t\t[1298]<b />\n\t\t\t\t\t\t\t\t\tNeural\n\t\t\t\t\t\t\t\t[1301]<b />\n\t\t\t\t\t\t\t\t\tComputer\n\t\t\t\t\t\t\t\t\" (NC), a model integrating computation, storage, and input/output without relying on external programs.\n\t\t[195]<article id=r1-4 />\n\t\t\t[1305]<div />\n\t\t\t\t[196]<button expanded=false />\n\t\t\t[1331]<div />\n\t\t\t\t[1332]<div />\n\t\t\t\t\t[1335]<div />\n\t\t\t\t\t\t[1336]<p />\n\t\t\t\t\t\t\tMeta Research\n\t\t\t\t\t\t[204]<a />\n\t\t\t\t\t\t\thttps://\n\t\t\t\t\t\t\tresearch.facebook.com\n\t\t\t\t\t\t\tpublications\n\t\t\t[1346]<div />\n\t\t\t\t[1347]<h2 level=2 />\n\t\t\t\t\t[205]<a />\n\t\t\t\t\t\tPublications - Meta Research\n\t\t\t[1350]<div />\n\t\t\t\t[1351]<div />\n\t\t\t\t\t[1352]<div />\n\t\t\t\t\t\t[1353]<span />\n\t\t\t\t\t\t\t[1354]<span />\n\t\t\t\t\t\t\t\t[1355]<b />\n\t\t\t\t\t\t\t\t\tMeta\n\t\t\t\t\t\t\t\tdeploys large-scale distributed storage services across datacenters. Storage applications are often categorized based on the type and temperature of the data stored: hot, ...\n\t\t[206]<article id=r1-5 />\n\t\t\t[1359]<div />\n\t\t\t\t[207]<button expanded=false />\n\t\t\t[1385]<div />\n\t\t\t\t[1386]<div />\n\t\t\t\t\t[1389]<div />\n\t\t\t\t\t\t[1390]<p />\n\t\t\t\t\t\t\tSemiconductor Engineering\n\t\t\t\t\t\t[216]<a />\n\t\t\t\t\t\t\thttps://\n\t\t\t\t\t\t\tsemiengineering.com\n\t\t\t\t\t\t\t[1397]<span />\n\t\t\t\t\t\t\t\tan-engineering-roadmap-toward-completely-neural-computers-meta-ai-kaust\n\t\t\t[1400]<div />\n\t\t\t\t[1401]<h2 level=2 />\n\t\t\t\t\t[217]<a />\n\t\t\t\t\t\tAn Engineering Roadmap Toward Completely Neural Computers (Meta AI, KAUST)\n\t\t\t[1404]<div />\n\t\t\t\t[1405]<div />\n\t\t\t\t\t[1406]<div />\n\t\t\t\t\t\t[1407]<span />\n\t\t\t\t\t\t\t[1408]<span />\n\t\t\t\t\t\t\t\t12 Apr 2026\n\t\t\t\t\t\t\t[1411]<span />\n\t\t\t\t\t\t\t\tA new technical\n\t\t\t\t\t\t\t\t[1413]<b />\n\t\t\t\t\t\t\t\t\tpaper\n\t\t\t\t\t\t\t\t, \"\n\t\t\t\t\t\t\t\t[1416]<b />\n\t\t\t\t\t\t\t\t\tNeural\n\t\t\t\t\t\t\t\t[1419]<b />\n\t\t\t\t\t\t\t\t\tComputers\n\t\t\t\t\t\t\t\t,\" was published by researchers at\n\t\t\t\t\t\t\t\t[1422]<b />\n\t\t\t\t\t\t\t\t\tMeta\n\t\t\t\t\t\t\t\tAI and KAUST. Abstract \"We propose a new frontier:\n\t\t\t\t\t\t\t\t[1425]<b />\n\t\t\t\t\t\t\t\t\tNeural\n\t\t\t\t\t\t\t\t[1428]<b />\n\t\t\t\t\t\t\t\t\tComputers\n\t\t\t\t\t\t\t\t(NCs) \u2014 an emerging machine form that unifies computation, memory, and I/O in a learned runtime state.\n\t\t[218]<article id=r1-6 />\n\t\t\t[1432]<div />\n\t\t\t\t[219]<button expanded=false />\n\t\t\t[1458]<div />\n\t\t\t\t[1459]<div />\n\t\t\t\t\t[1462]<div />\n\t\t\t\t\t\t[1463]<p />\n\t\t\t\t\t\t\tblog.pebblous.ai\n\t\t\t\t\t\t[228]<a />\n\t\t\t\t\t\t\thttps://\n\t\t\t\t\t\t\tblog.pebblous.ai\n\t\t\t\t\t\t\tblog \u203a neural-computers-meta \u203a en\n\t\t\t[1473]<div />\n\t\t\t\t[1474]<h2 level=2 />\n\t\t\t\t\t[229]<a />\n\t\t\t\t\t\tNo Code Required. Meta AI Wants the Model to Be the Machine.\n\t\t\t[1477]<div />\n\t\t\t\t[1478]<div />\n\t\t\t\t\t[1479]<div />\n\t\t\t\t\t\t[1480]<span />\n\t\t\t\t\t\t\t[1481]<span />\n\t\t\t\t\t\t\t\t[1482]<b />\n\t\t\t\t\t\t\t\t\tMeta\n\t\t\t\t\t\t\t\tAI proposed\n\t\t\t\t\t\t\t\t[1485]<b />\n\t\t\t\t\t\t\t\t\tNeural\n\t\t\t\t\t\t\t\t[1488]<b />\n\t\t\t\t\t\t\t\t\tComputers\n\t\t\t\t\t\t\t\t\u2014 a new paradigm where the AI model itself is the\n\t\t\t\t\t\t\t\t[1491]<b />\n\t\t\t\t\t\t\t\t\tcomputer\n\t\t\t\t\t\t\t\t. No software, no separate code. Memory, computation, and I/O fused into a single learned system.\n\t\t[230]<article id=r1-7 />\n\t\t\t[1495]<div />\n\t\t\t\t[231]<button expanded=false />\n\t\t\t[1521]<div />\n\t\t\t\t[1522]<div />\n\t\t\t\t\t[1525]<div />\n\t\t\t\t\t\t[1526]<p />\n\t\t\t\t\t\t\tthelivingedge.substack.com\n\t\t\t\t\t\t[240]<a />\n\t\t\t\t\t\t\thttps://\n\t\t\t\t\t\t\tthelivingedge.substack.com\n\t\t\t\t\t\t\tp \u203a last-week-in-multimodal-ai-53-neural\n\t\t\t[1536]<div />\n\t\t\t\t[1537]<h2 level=2 />\n\t\t\t\t\t[241]<a />\n\t\t\t\t\t\tLast Week In Multimodal AI #53: Neural Computers, Forgetful VLMs, and 8 ...\n\t\t\t[1540]<div />\n\t\t\t\t[1541]<div />\n\t\t\t\t\t[1542]<div />\n\t\t\t\t\t\t[1543]<span />\n\t\t\t\t\t\t\t[1544]<span />\n\t\t\t\t\t\t\t\t5 days ago\n\t\t\t\t\t\t\t[1547]<span />\n\t\t\t\t\t\t\t\tThree\n\t\t\t\t\t\t\t\t[1549]<b />\n\t\t\t\t\t\t\t\t\tpapers\n\t\t\t\t\t\t\t\tmessed with how models are even supposed to be structured.\n\t\t\t\t\t\t\t\t[1552]<b />\n\t\t\t\t\t\t\t\t\tMeta\n\t\t\t\t\t\t\t\tAI and KAUST proposed\n\t\t\t\t\t\t\t\t[1555]<b />\n\t\t\t\t\t\t\t\t\tNeural\n\t\t\t\t\t\t\t\t[1558]<b />\n\t\t\t\t\t\t\t\t\tComputers\n\t\t\t\t\t\t\t\t, where the model itself is the running\n\t\t\t\t\t\t\t\t[1561]<b />\n\t\t\t\t\t\t\t\t\tcomputer\n\t\t\t\t\t\t\t\tinstead of executing programs on top of one.\n\t\t[242]<article id=r1-8 />\n\t\t\t[1565]<div />\n\t\t\t\t[243]<button expanded=false />\n\t\t\t[1591]<div />\n\t\t\t\t[1592]<div />\n\t\t\t\t\t[1595]<div />\n\t\t\t\t\t\t[1596]<p />\n\t\t\t\t\t\t\ti10x.ai\n\t\t\t\t\t\t[252]<a />\n\t\t\t\t\t\t\thttps://\n\t\t\t\t\t\t\ti10x.ai\n\t\t\t\t\t\t\tnews \u203a neural-computers-i10x-analysis\n\t\t\t[1606]<div />\n\t\t\t\t[1607]<h2 level=2 />\n\t\t\t\t\t[253]<a />\n\t\t\t\t\t\tNeural Computers: Meta AI's Unified Architecture\n\t\t\t[1610]<div />\n\t\t\t\t[1611]<div />\n\t\t\t\t\t[1612]<div />\n\t\t\t\t\t\t[1613]<span />\n\t\t\t\t\t\t\t[1614]<span />\n\t\t\t\t\t\t\t\t7 days ago\n\t\t\t\t\t\t\t[1617]<span />\n\t\t\t\t\t\t\t\tThe \"\n\t\t\t\t\t\t\t\t[1619]<b />\n\t\t\t\t\t\t\t\t\tNeural\n\t\t\t\t\t\t\t\t[1622]<b />\n\t\t\t\t\t\t\t\t\tComputers\n\t\t\t\t\t\t\t\t\" idea from\n\t\t\t\t\t\t\t\t[1625]<b />\n\t\t\t\t\t\t\t\t\tMeta\n\t\t\t\t\t\t\t\tAI and KAUST researchers tackles this jumble head-on, crafting a more unified AI \"organism.\" At its heart, it's one\n\t\t\t\t\t\t\t\t[1628]<b />\n\t\t\t\t\t\t\t\t\tneural\n\t\t\t\t\t\t\t\tnetwork that doesn't just crunch data; it builds its\n\t\t\t\t\t\t\t\t[1631]<b />\n\t\t\t\t\t\t\t\t\town\n\t\t\t\t\t\t\t\tsmooth, trainable internal memory and tailored I/O paths.\n\t|scroll element[1711]<ul /> (0.0 pages above, 0.5 pages below)\n\t[15]<button />\n\t\tShare Feedback\n</browser_state>\n\nCurrent screenshot:",
+        "step_number": 4
+    },
+    {
+        "model_output": null,
+        "result": [
+            {
+                "is_done": false,
+                "error": "500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+                "include_extracted_content_only_once": false,
+                "include_in_memory": false
+            }
+        ],
+        "state": {
+            "tabs": [
+                {
+                    "url": "https://arxiv.org/abs/2604.06425",
+                    "title": "arxiv.org/abs/2604.06425",
+                    "target_id": "9F74",
+                    "parent_target_id": null
+                }
+            ],
+            "screenshot_path": "C:\\Users\\omara\\AppData\\Local\\Temp\\browser_use_agent_069e6602-c1c4-7dd2-8000-9cbf1293bc2d_1776705580\\screenshots\\step_5.png",
+            "interacted_element": [
+                null
+            ],
+            "url": "https://arxiv.org/abs/2604.06425",
+            "title": "arxiv.org/abs/2604.06425"
+        },
+        "metadata": {
+            "step_start_time": 1776705694.2086093,
+            "step_end_time": 1776705703.615263,
+            "step_number": 5,
+            "step_interval": 66.778817653656
+        },
+        "state_message": "<agent_history>\nAgent initialized\n<step>\nAgent failed to output in the right format.\n<step>\nAgent failed to output in the right format.\n<step>\nNo previous goal. Initializing task.\nThe user wants to find a research paper about Meta's neural computers. I am starting a search.\nSearch for 'Meta own neural computers research paper' using DuckDuckGo.\nResult\nSearched Duckduckgo for 'Meta own neural computers research paper'\n<step>\nSuccessfully searched for 'Meta own neural computers research paper'. Verdict: Success\nFound a highly relevant paper on arXiv: '[2604.06425] Neural Computers'. It's a collaboration between Meta AI and KAUST.\nClick on the arXiv link to extract the paper details.\nResult\nClicked a \"[2604.06425] Neural Computers ...\"\n</agent_history>\n\n<agent_state>\n<user_request>\nFind the paper: Meta own neural computers research paper\n</user_request>\n<file_system>\n\n</file_system>\n<todo_contents>\n[empty todo.md, fill it when applicable]\n</todo_contents>\n<plan>\n[x] 0: Search for 'Meta own neural computers research paper'\n[>] 1: Identify the correct paper from search results\n[ ] 2: Extract and provide the paper details (title, authors, link)\n</plan>\n<step_info>Step5 maximum:500\nToday:2026-04-20</step_info>\n</agent_state>\n<browser_state>\n<page_stats>Page appears empty (SPA not loaded?) - 0 links, 0 interactive, 0 iframes, 1 total elements</page_stats>\nCurrent tab: 9F74\nAvailable tabs:\nTab 9F74: https://arxiv.org/abs/2604.06425 - arxiv.org/abs/2604.06425\n\n<page_info>0.0 pages above, 0.7 pages below \u2014 scroll down to reveal more content</page_info>\n\nInteractive elements:\nempty page\n</browser_state>\n\nCurrent screenshot:",
+        "step_number": 5
+    },
+    {
+        "model_output": {
+            "evaluation_previous_goal": "Successfully clicked the arXiv link and navigated to the paper's abstract page. Verdict: Success",
+            "memory": "Found the paper 'Neural Computers' (arXiv:2604.06425). Title: Neural Computers. Authors: Mingchen Zhuge, Changsheng Zhao, Haozhe Liu, Zijian Zhou, Shuming Liu, Wenyi Wang, Ernie Chang, Gael Le Lan, Junjie Fei, Wenxuan Zhang, Yasheng Sun, Zhipeng Cai, Zechun Liu, Yunyang Xiong, Yining Yang, Yuandong Tian, Yangyang Shi, Vikas Chandra, J\u00fcrgen Schmidhuber. URL: https://arxiv.org/abs/2604.06425",
+            "next_goal": "Provide the final details of the paper to the user.",
+            "action": [
+                {
+                    "done": {
+                        "text": "I have found the research paper regarding Meta's neural computers:\n\n- **Title**: Neural Computers\n- **Authors**: Mingchen Zhuge, Changsheng Zhao, Haozhe Liu, Zijian Zhou, Shuming Liu, Wenyi Wang, Ernie Chang, Gael Le Lan, Junjie Fei, Wenxuan Zhang, Yasheng Sun, Zhipeng Cai, Zechun Liu, Yunyang Xiong, Yining Yang, Yuandong Tian, Yangyang Shi, Vikas Chandra, J\u00fcrgen Schmidhuber\n- **Link**: https://arxiv.org/abs/2604.06425\n- **Abstract**: We propose a new frontier: Neural Computers (NCs) that unify computation, memory, and I/O of traditional computers in a learned runtime state. Our long-term goal is the Completely Neural Computer (CNC): the mature, general-purpose realization of this emerging machine form, with stable execution, explicit reprogramming, and durable capability reuse.",
+                        "success": true,
+                        "files_to_display": []
+                    }
+                }
+            ],
+            "thinking": "I have successfully navigated to the arXiv page for the paper titled 'Neural Computers'. I can see the title, the authors, and the URL in the browser state. This matches the user's request for a research paper about Meta's neural computers (as the previous search result indicated it was a collaboration involving Meta AI). I now have all the necessary information to fulfill the request.",
+            "current_plan_item": 2
+        },
+        "result": [
+            {
+                "is_done": true,
+                "success": true,
+                "attachments": [],
+                "long_term_memory": "Task completed: True - I have found the research paper regarding Meta's neural computers:\n\n- **Title**: Neural Computers\n-  - 689 more characters",
+                "extracted_content": "I have found the research paper regarding Meta's neural computers:\n\n- **Title**: Neural Computers\n- **Authors**: Mingchen Zhuge, Changsheng Zhao, Haozhe Liu, Zijian Zhou, Shuming Liu, Wenyi Wang, Ernie Chang, Gael Le Lan, Junjie Fei, Wenxuan Zhang, Yasheng Sun, Zhipeng Cai, Zechun Liu, Yunyang Xiong, Yining Yang, Yuandong Tian, Yangyang Shi, Vikas Chandra, J\u00fcrgen Schmidhuber\n- **Link**: https://arxiv.org/abs/2604.06425\n- **Abstract**: We propose a new frontier: Neural Computers (NCs) that unify computation, memory, and I/O of traditional computers in a learned runtime state. Our long-term goal is the Completely Neural Computer (CNC): the mature, general-purpose realization of this emerging machine form, with stable execution, explicit reprogramming, and durable capability reuse.",
+                "include_extracted_content_only_once": false,
+                "include_in_memory": false
+            }
+        ],
+        "state": {
+            "tabs": [
+                {
+                    "url": "https://arxiv.org/abs/2604.06425",
+                    "title": "arxiv.org/abs/2604.06425",
+                    "target_id": "9F74",
+                    "parent_target_id": null
+                }
+            ],
+            "screenshot_path": "C:\\Users\\omara\\AppData\\Local\\Temp\\browser_use_agent_069e6602-c1c4-7dd2-8000-9cbf1293bc2d_1776705580\\screenshots\\step_6.png",
+            "interacted_element": [
+                null
+            ],
+            "url": "https://arxiv.org/abs/2604.06425",
+            "title": "arxiv.org/abs/2604.06425"
+        },
+        "metadata": {
+            "step_start_time": 1776705703.6249368,
+            "step_end_time": 1776705727.4129717,
+            "step_number": 6,
+            "step_interval": 9.406653642654419
+        },
+        "state_message": "<agent_history>\nAgent initialized\n<step>\nAgent failed to output in the right format.\n<step>\nAgent failed to output in the right format.\n<step>\nNo previous goal. Initializing task.\nThe user wants to find a research paper about Meta's neural computers. I am starting a search.\nSearch for 'Meta own neural computers research paper' using DuckDuckGo.\nResult\nSearched Duckduckgo for 'Meta own neural computers research paper'\n<step>\nSuccessfully searched for 'Meta own neural computers research paper'. Verdict: Success\nFound a highly relevant paper on arXiv: '[2604.06425] Neural Computers'. It's a collaboration between Meta AI and KAUST.\nClick on the arXiv link to extract the paper details.\nResult\nClicked a \"[2604.06425] Neural Computers ...\"\n<step>\nAgent failed to output in the right format.\n</agent_history>\n\n<agent_state>\n<user_request>\nFind the paper: Meta own neural computers research paper\n</user_request>\n<file_system>\n\n</file_system>\n<todo_contents>\n[empty todo.md, fill it when applicable]\n</todo_contents>\n<plan>\n[x] 0: Search for 'Meta own neural computers research paper'\n[>] 1: Identify the correct paper from search results\n[ ] 2: Extract and provide the paper details (title, authors, link)\n</plan>\n<step_info>Step6 maximum:500\nToday:2026-04-20</step_info>\n</agent_state>\n<browser_state>\n<page_stats>68 links, 105 interactive, 0 iframes, 2 shadow(open), 0 shadow(closed), 4 images, 357 total elements</page_stats>\nCurrent tab: 9F74\nAvailable tabs:\nTab 9F74: https://arxiv.org/abs/2604.06425 - arxiv.org/abs/2604.06425\n\n<page_info>0.0 pages above, 0.7 pages below \u2014 scroll down to reveal more content</page_info>\n\nInteractive elements:\n[Start of page]\n[164]<a />\n\tSkip to main content\n[167]<a />\n\t[168]<img alt=Cornell University />\n[170]<a />\n\tLearn about arXiv becoming an independent nonprofit.\nWe gratefully acknowledge support from the Simons Foundation,\n[173]<a />\n\tmember institutions\n, and all contributors.\n[174]<a />\n\tDonate\n[176]<a />\n[178]<a />\n[181]<a />\n\tcs\narXiv:2604.06425\n[184]<div />\n\t[185]<form />\n\t\t|SHADOW(open)|[200]<input type=text name=query placeholder=Search... aria-label=Search term or terms />\n\t\t[202]<a />\n\t\t\tHelp\n\t\t[203]<a />\n\t\t\tAdvanced Search\n\t\t|SHADOW(open)|*[212]<select name=searchtype aria-label=Field to search expanded=false compound_components=(name=Dropdown Toggle,role=button),(name=Options,role=listbox,count=15,options=All fields|Title|Author|Abstract) />\n\t\t[259]<button />\n\t\t\tSearch\nComputer Science > Machine Learning\n[Submitted on 7 Apr 2026 (\n[307]<a />\n\tv1\n), last revised 16 Apr 2026 (this version, v2)]\nNeural Computers\n[312]<a />\n\tMingchen Zhuge\n[313]<a />\n\tChangsheng Zhao\n[314]<a />\n\tHaozhe Liu\n[315]<a />\n\tZijian Zhou\n[316]<a />\n\tShuming Liu\n[317]<a />\n\tWenyi Wang\n[318]<a />\n\tErnie Chang\n[319]<a />\n\tGael Le Lan\n[320]<a />\n\tJunjie Fei\n[321]<a />\n\tWenxuan Zhang\n[322]<a />\n\tYasheng Sun\n[323]<a />\n\tZhipeng Cai\n[324]<a />\n\tZechun Liu\n[325]<a />\n\tYunyang Xiong\n[326]<a />\n\tYining Yang\n[327]<a />\n\tYuandong Tian\n[328]<a />\n\tYangyang Shi\n[329]<a />\n\tVikas Chandra\n[330]<a />\n\tJ\u00fcrgen Schmidhuber\nWe propose a new frontier: Neural Computers (NCs) that unify computation, memory, and I/O of traditional computers in a learned runtime state. Our long-term goal is the Completely Neural Computer (CNC): the mature, general-purpose realization of this emerging machine form, with stable execution, explicit reprogramming, and durable capability reuse. As an initial step, we study whether elementary NC primitives can be learned solely from collected I/O traces, without instrumented program state. Concretely, we instantiate NCs as video models that roll out screen frames from instructions, pixels, and user actions (when available) in CLI and GUI settings. We show that NCs can acquire elementary interface primitives, especially I/O alignment and short-horizon control, while routine reuse, controlled updates, and symbolic stability remain challenging. We outline a roadmap toward CNCs, to establish a new computing paradigm beyond today's agents and conventional computers.\n[338]<tr />\n\t[339]<td />\n\t\tComments:\n\t[340]<td />\n\t\tGithub (data pipeline):\n\t\t[341]<a />\n\t\t\tthis https URL\n\t\tBlogpost:\n\t\t[342]<a />\n\t\t\tthis https URL\n[343]<tr />\n\t[344]<td />\n\t\tSubjects:\n\t[345]<td />\n\t\tMachine Learning (cs.LG)\n\t\t; Artificial Intelligence (cs.AI)\n[347]<tr />\n\t[348]<td />\n\t\tCite as:\n\t[349]<td />\n\t\t[351]<a />\n\t\t\tarXiv:2604.06425\n\t\t[cs.LG]\n[352]<tr />\n\t[353]<td />\n\t[354]<td />\n\t\t(or\n\t\t[356]<a />\n\t\t\tarXiv:2604.06425v2\n\t\t[cs.LG]\n\t\tfor this version)\n[357]<tr />\n\t[358]<td />\n\t[359]<td />\n\t\t[360]<a id=arxiv-doi-link />\n\t\t\thttps://doi.org/10.48550/arXiv.2604.06425\n\t\t[361]<div />\n\t\t\t[362]<button />\n\t\t\t\tFocus to learn more\nSubmission history\nFrom: Mingchen Zhuge [\n[370]<a />\n\tview email\n[373]<a />\n\t[v1]\nTue, 7 Apr 2026 20:01:05 UTC (27,484 KB)\n[v2]\nThu, 16 Apr 2026 21:05:33 UTC (27,474 KB)\n[379]<a name=other />\nAccess Paper:\n[385]<a keyshortcuts=Alt+f />\n\tView PDF\n[387]<a />\n\tTeX Source\n[389]<a title=Rights to this article />\n\tview license\nCurrent browse context:\ncs.LG\n[395]<a title=previous in cs.LG (accesskey p) keyshortcuts=Alt+p />\n\t<\u00a0prev\n[396]<span />\n[398]<a title=next in cs.LG (accesskey n) keyshortcuts=Alt+n />\n\tnext\u00a0>\n[401]<a />\n\tnew\n[403]<a />\n\trecent\n[405]<a />\n\t2026-04\nChange to browse by:\n[408]<a />\n\tcs\n[410]<a />\n\tcs.AI\nReferences & Citations\n[416]<a />\n\tNASA ADS\n[418]<a />\n\tGoogle Scholar\n[420]<a />\n\tSemantic Scholar\n[423]<button id=bib-cite-trigger />\n\texport BibTeX citation\nBookmark\n[439]<a title=Bookmark on BibSonomy />\n\t[440]<img alt=BibSonomy />\n[441]<a title=Bookmark on Reddit />\n\t[442]<img alt=Reddit />\nBibliographic Tools\nBibliographic and Citation Tools\n[451]<div />\n\t[454]<span />\n\tBibliographic Explorer Toggle\nBibliographic Explorer\n[459]<a />\n\tWhat is the Explorer?\n[461]<div />\n\t[588]<span />\n\tConnected Papers Toggle\nConnected Papers\n[593]<a />\n\tWhat is Connected Papers?\n[595]<div />\n\t[598]<span />\n\tLitmaps Toggle\nLitmaps\n[603]<a />\n\tWhat is Litmaps?\n[605]<div />\n\t[608]<span />\n\tscite.ai Toggle\nscite Smart Citations\n[613]<a />\n\tWhat are Smart Citations?\nCode, Data, Media\nDemos\nRelated Papers\nAbout arXivLabs\n[806]<a />\n\tWhich authors of this paper are endorsers?\n[807]<a id=mathjax_toggle />\n\tDisable MathJax\n[808]<a />\n\tWhat is MathJax?\n[853]<a />\n\tAbout\n[855]<a />\n\tHelp\n[859]<svg role=presentation /> <!-- SVG content collapsed -->\n[863]<a />\n\tContact\n[865]<svg role=presentation /> <!-- SVG content collapsed -->\n[869]<a />\n\tSubscribe\n[875]<a />\n\tCopyright\n[877]<a />\n\tPrivacy Policy\n[881]<a />\n\tWeb Accessibility Assistance\n[884]<a />\n\tarXiv Operational Status\n</browser_state>\n\nCurrent screenshot:",
+        "step_number": 6
+    }
+]
